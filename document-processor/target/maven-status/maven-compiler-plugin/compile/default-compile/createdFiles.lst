@@ -1,0 +1,5 @@
+com/example/document_processor/DocumentProcessorApplication.class
+com/example/document_processor/dto/FileUploadRequest.class
+com/example/document_processor/service/OpenAIService.class
+com/example/document_processor/controller/DocumentController.class
+com/example/document_processor/HomeController.class
