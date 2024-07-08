@@ -1,8 +1,8 @@
 services:
   - type: web
     name: document-processor
-    env: java
+    env: docker
     plan: free
+    buildCommand: "echo 'Skipping build step'"
     startCommand: "java -jar target/document-processor-0.0.1-SNAPSHOT.jar"
-    buildpacks:
-      - heroku/java
+    dockerfilePath: Dockerfile
