@@ -3,6 +3,6 @@ services:
     name: document-processor
     env: docker
     plan: free
-    buildCommand: "echo 'Skipping build step'"
+    buildCommand: "echo Skipping build step"
     startCommand: "java -jar target/document-processor-0.0.1-SNAPSHOT.jar"
     dockerfilePath: Dockerfile
